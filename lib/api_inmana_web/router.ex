@@ -9,6 +9,10 @@ defmodule ApiInmanaWeb.Router do
     pipe_through :api
 
     get "/sanity/check", SanityController, :check
+
+    scope "/restaurant" do
+      post "/", RestaurantController, :store
+    end
   end
 
   # Enables LiveDashboard only for development

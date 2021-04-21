@@ -10,6 +10,10 @@ use Mix.Config
 config :api_inmana,
   ecto_repos: [ApiInmana.Repo]
 
+config :api_inmana, ApiInmana.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreign_key: [type: :binary_id]
+
 # Configures the endpoint
 config :api_inmana, ApiInmanaWeb.Endpoint,
   url: [host: "localhost"],

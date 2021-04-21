@@ -10,4 +10,4 @@ How to use:
 
 Now you should be able to reach [`localhost:4000`](http://localhost:4000) on the browser.
 
-Health check: [`localhost:4000/api/v1/sanity/check`](localhost:4000/api/v1/sanity/check)
+Health check: [`localhost:4000/api/v1/sanity/check`](http://localhost:4000/api/v1/sanity/check)
